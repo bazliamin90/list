@@ -220,6 +220,14 @@ td{
   border: 1px solid black;
   box-shadow: 0.1rem 0.1rem black;
   text-decoration: none;
+  opacity: 0.4;
+  border-bottom-right-radius: 0.4rem;
+  border-top-left-radius: 0.4rem;
+}
+
+.stt:active {
+  color: yellow;
+  background-color: purple;
 }
 
 .nexar {
@@ -350,4 +358,16 @@ td{
 
 td.dash {
 	border-left: 1px dashed grey;
+}
+
+#searchbar{
+	height: 30px;
+	width: 40%;
+	border: 1px solid lightgrey;
+	border-top-left-radius: 0.5rem;
+	border-bottom-right-radius: 0.5rem;
+	box-shadow: 0.2rem 0.2rem lightgrey;
+	color: red;
+	padding-left: 0.8rem;
+	outline: none;
 }
